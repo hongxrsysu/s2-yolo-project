@@ -24,9 +24,14 @@ env/
 Thumbs.db
 
 # 项目特定
-results/
-logs/
+# results/  # 保留文件夹结构，但忽略内容
+# logs/     # 保留文件夹结构，但忽略内容
 *.log
+results/rgb_vis/*
+results/fc_vis/*
+results/rgb_txt/*
+results/fc_txt/*
+logs/*.log
 
 # 权重文件（太大，建议用Git LFS）
 # weights/*.pt
