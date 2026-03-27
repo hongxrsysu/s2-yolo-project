@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 项目特定
+results/
+logs/
+*.log
+
+# 权重文件（太大，建议用Git LFS）
+# weights/*.pt
+# 如果想用Git LFS，取消上面注释并运行：
+# git lfs install
+# git lfs track "weights/*.pt"
